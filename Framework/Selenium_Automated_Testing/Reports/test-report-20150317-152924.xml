@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gallio.org/">
+  <testPackage shadowCopy="false" debug="false">
+    <files>
+      <file>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.dll</file>
+    </files>
+    <hintDirectories />
+    <excludedFrameworkIds />
+    <properties />
+  </testPackage>
+  <testModel>
+    <test id="c2722843734a7a54" name="Root" fullName="" isTestCase="false">
+      <codeReference />
+      <codeLocation />
+      <metadata>
+        <entry key="TestKind">
+          <value>Root</value>
+        </entry>
+      </metadata>
+      <children>
+        <test id="8afed112956105b9" name="Civica_Automated_Testing" fullName="Civica_Automated_Testing" isTestCase="false">
+          <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+          <codeLocation path="D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL" />
+          <metadata>
+            <entry key="TestKind">
+              <value>MbUnit v3 Assembly</value>
+              <value>NUnit v2.5.6+ Assembly</value>
+            </entry>
+            <entry key="File">
+              <value>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL</value>
+            </entry>
+            <entry key="CodeBase">
+              <value>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL</value>
+            </entry>
+            <entry key="Copyright">
+              <value>Copyright ©  2013</value>
+            </entry>
+            <entry key="FileVersion">
+              <value>1.0.0.0</value>
+            </entry>
+            <entry key="Product">
+              <value>NashTech_FW</value>
+            </entry>
+            <entry key="Title">
+              <value>Automated_Testing_HarveyNash</value>
+            </entry>
+            <entry key="Version">
+              <value>1.0.0.0</value>
+            </entry>
+            <entry key="Framework">
+              <value>MbUnit v3.4 build 11</value>
+              <value>NUnit v2.6.3.13283</value>
+            </entry>
+          </metadata>
+          <children>
+            <test id="a9c8195d4be55c38" name="SeleniumGridTestChrome" fullName="Civica_Automated_Testing/SeleniumGridTestChrome" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestChrome" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestChrome.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="1d71d5d173d2bb76" name="TestCase" fullName="Civica_Automated_Testing/SeleniumGridTestChrome/TestCase" isTestCase="true">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestChrome" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestChrome.cs" line="41" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="166f30794c02d0e4" name="SeleniumGridTestIE" fullName="Civica_Automated_Testing/SeleniumGridTestIE" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestIE" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestIE.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="5d26abacee715c69" name="TestCase" fullName="Civica_Automated_Testing/SeleniumGridTestIE/TestCase" isTestCase="true">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestIE" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestIE.cs" line="38" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="8bd162f72d1acbe1" name="TestBatchMb" fullName="Civica_Automated_Testing/TestBatchMb" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.TestBatchMb" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBatchMb.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="3a6b6c1c1e1fdcad" name="RunTestSuite" fullName="Civica_Automated_Testing/TestBatchMb/RunTestSuite" isTestCase="true">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.TestBatchMb" member="RunTestSuite" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBatchMb.cs" line="40" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="17d6fec1d0468d36" name="SeleniumGridTestFF" fullName="Civica_Automated_Testing/SeleniumGridTestFF" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestFF" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestFF.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="c3903e534f3342f0" name="TestCase" fullName="Civica_Automated_Testing/SeleniumGridTestFF/TestCase" isTestCase="true">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestFF" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestFF.cs" line="40" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="17f6b51b1b00eb21" name="BrowserStackParrallelIE" fullName="Civica_Automated_Testing/BrowserStackParrallelIE" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelIE" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelE.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="42ae2c0c088ff090" name="TestCase" fullName="Civica_Automated_Testing/BrowserStackParrallelIE/TestCase" isTestCase="true">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelIE" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelE.cs" line="42" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="9401803c2ac8380e" name="BrowserStackParrallelFireFox" fullName="Civica_Automated_Testing/BrowserStackParrallelFireFox" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelFireFox" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelFireFox.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="6eeaf21b809142b4" name="TestCase" fullName="Civica_Automated_Testing/BrowserStackParrallelFireFox/TestCase" isTestCase="true">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelFireFox" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelFireFox.cs" line="42" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="54becd2f0ccde1a8" name="BrowserStackParrallelChrome" fullName="Civica_Automated_Testing/BrowserStackParrallelChrome" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelChrome" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelChrome.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="eaf95b5482883d01" name="TestCase" fullName="Civica_Automated_Testing/BrowserStackParrallelChrome/TestCase" isTestCase="true">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelChrome" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelChrome.cs" line="44" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="c8a7bed31ab138e9" name="Demo" fullName="Civica_Automated_Testing/Demo" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+              <codeLocation path="D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Namespace</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="6b8b3cf1fbc8bd12" name="BrowserstackTest" fullName="Civica_Automated_Testing/Demo/BrowserstackTest" isTestCase="false">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserstackTest" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStack.cs" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Fixture</value>
+                    </entry>
+                  </metadata>
+                  <children>
+                    <test id="33ae1e5d4f52803f" name="TestCase" fullName="Civica_Automated_Testing/Demo/BrowserstackTest/TestCase" isTestCase="true">
+                      <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserstackTest" member="TestCase" />
+                      <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStack.cs" line="41" />
+                      <metadata>
+                        <entry key="TestKind">
+                          <value>Test</value>
+                        </entry>
+                      </metadata>
+                      <children />
+                      <parameters />
+                    </test>
+                  </children>
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="86d9eda5c0e4d61a" name="Selenium_Civica_AutomatedTesting" fullName="Civica_Automated_Testing/Selenium_Civica_AutomatedTesting" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+              <codeLocation path="D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Namespace</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="29d9bcce6f4de47c" name="TestBatch" fullName="Civica_Automated_Testing/Selenium_Civica_AutomatedTesting/TestBatch" isTestCase="false">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Selenium_Civica_AutomatedTesting" type="Selenium_Civica_AutomatedTesting.TestBatch" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBatch.cs" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Fixture</value>
+                    </entry>
+                  </metadata>
+                  <children>
+                    <test id="a14d20c46bee3d5" name="RunTestSuite" fullName="Civica_Automated_Testing/Selenium_Civica_AutomatedTesting/TestBatch/RunTestSuite" isTestCase="true">
+                      <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Selenium_Civica_AutomatedTesting" type="Selenium_Civica_AutomatedTesting.TestBatch" member="RunTestSuite" />
+                      <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBatch.cs" line="61" />
+                      <metadata>
+                        <entry key="TestKind">
+                          <value>Test</value>
+                        </entry>
+                      </metadata>
+                      <children />
+                      <parameters />
+                    </test>
+                  </children>
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="415d42b0883d4c36" name="testA" fullName="Civica_Automated_Testing/testA" isTestCase="false">
+              <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+              <codeLocation path="D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Namespace</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="4a283bbf0ba1b8a3" name="TestBatchABC" fullName="Civica_Automated_Testing/testA/TestBatchABC" isTestCase="false">
+                  <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="testA" type="testA.TestBatchABC" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\testA.cs" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Fixture</value>
+                    </entry>
+                  </metadata>
+                  <children>
+                    <test id="68ef9b32a8232d00" name="RunTestSuite" fullName="Civica_Automated_Testing/testA/TestBatchABC/RunTestSuite" isTestCase="true">
+                      <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="testA" type="testA.TestBatchABC" member="RunTestSuite" />
+                      <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\testA.cs" line="260" />
+                      <metadata>
+                        <entry key="TestKind">
+                          <value>Test</value>
+                        </entry>
+                      </metadata>
+                      <children />
+                      <parameters />
+                    </test>
+                  </children>
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+          </children>
+          <parameters />
+        </test>
+      </children>
+      <parameters />
+    </test>
+    <annotations />
+  </testModel>
+  <testPackageRun startTime="2015-03-17T15:29:24.8076927+07:00" endTime="2015-03-17T15:32:57.6406927+07:00">
+    <testStepRun startTime="2015-03-17T15:29:26.6226927+07:00" endTime="2015-03-17T15:32:57.6406927+07:00">
+      <testStep id="dbe8b76d70049831" name="Root" fullName="" testId="c2722843734a7a54" isPrimary="true" isTestCase="false" isDynamic="false">
+        <codeReference />
+        <codeLocation />
+        <metadata>
+          <entry key="TestKind">
+            <value>Root</value>
+          </entry>
+        </metadata>
+      </testStep>
+      <children>
+        <testStepRun startTime="2015-03-17T15:29:26.6746927+07:00" endTime="2015-03-17T15:32:55.4096927+07:00">
+          <testStep id="41966601bd7ac55e" name="Civica_Automated_Testing" fullName="Civica_Automated_Testing" testId="8afed112956105b9" isPrimary="true" isTestCase="false" isDynamic="false">
+            <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+            <codeLocation path="D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL" />
+            <metadata>
+              <entry key="TestKind">
+                <value>MbUnit v3 Assembly</value>
+              </entry>
+              <entry key="File">
+                <value>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL</value>
+              </entry>
+              <entry key="CodeBase">
+                <value>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\bin\Debug\Civica_Automated_Testing.DLL</value>
+              </entry>
+              <entry key="Copyright">
+                <value>Copyright ©  2013</value>
+              </entry>
+              <entry key="FileVersion">
+                <value>1.0.0.0</value>
+              </entry>
+              <entry key="Product">
+                <value>NashTech_FW</value>
+              </entry>
+              <entry key="Title">
+                <value>Automated_Testing_HarveyNash</value>
+              </entry>
+              <entry key="Version">
+                <value>1.0.0.0</value>
+              </entry>
+              <entry key="Framework">
+                <value>MbUnit v3.4 build 11</value>
+              </entry>
+            </metadata>
+          </testStep>
+          <children>
+            <testStepRun startTime="2015-03-17T15:29:26.7066927+07:00" endTime="2015-03-17T15:32:55.4086927+07:00">
+              <testStep id="544c848faaa421" name="SeleniumGridTestFF" fullName="Civica_Automated_Testing/SeleniumGridTestFF" testId="17d6fec1d0468d36" isPrimary="true" isTestCase="false" isDynamic="false">
+                <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestFF" />
+                <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestFF.cs" />
+                <metadata>
+                  <entry key="TestKind">
+                    <value>Fixture</value>
+                  </entry>
+                </metadata>
+              </testStep>
+              <children>
+                <testStepRun startTime="2015-03-17T15:29:26.9406927+07:00" endTime="2015-03-17T15:32:55.3946927+07:00">
+                  <testStep id="9c3574a6512e6f5a" name="TestCase" fullName="Civica_Automated_Testing/SeleniumGridTestFF/TestCase" testId="c3903e534f3342f0" isPrimary="true" isTestCase="true" isDynamic="false">
+                    <codeReference assembly="Civica_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestFF" member="TestCase" />
+                    <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestFF.cs" line="40" />
+                    <metadata>
+                      <entry key="TestKind">
+                        <value>Test</value>
+                      </entry>
+                    </metadata>
+                  </testStep>
+                  <children />
+                  <result assertCount="0" duration="208.4546522">
+                    <outcome status="passed" />
+                  </result>
+                  <testLog>
+                    <streams>
+                      <stream name="ConsoleOutput">
+                        <body>
+                          <contents>
+                            <text><![CDATA[
+===========================================================================================
+RUNNING TEST SUITE: TS001 Login by sm user
+===========================================================================================
+
+-------------------------------------------------------------------------------------------
+Running test case: TC001 Log in as valid account successfully
+Step 1: Navigate URL successfully
+Step 2: Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 2000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 4000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 6000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 8000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 10000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 12000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 14000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 16000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 18000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 20000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 22000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 24000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 26000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 28000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 30000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 32000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 34000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 36000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 38000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 40000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 42000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 44000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 46000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 48000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 50000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 52000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 54000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 56000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 58000 milliseconds.
+Waiting for the element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] displays at 60000 milliseconds.
+The element .//*[@id='ContentPlaceHolder1_UsernameTextBox'] is still not displayed after waited for 60000 milliseconds.
+Step 3: Waited for 2000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 4000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 6000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 8000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 10000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 12000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 14000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 16000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 18000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 20000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 22000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 24000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 26000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 28000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 30000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 32000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 34000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 36000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 38000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 40000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 42000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 44000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 46000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 48000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 50000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 52000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 54000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 56000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 58000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+Waited for 60000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox']
+NPOI.Util.RuntimeException: Can't find By.XPath: .//*[@id='ContentPlaceHolder1_UsernameTextBox'] after 60000 milliseconds.
+   at Selenium_Civica_AutomatedTesting.Utilities.Common.findElement(IWebDriver webDriver, By by, Int32 iTimeOut) in d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\Utilities\Common.cs:line 301
+   at Selenium_Civica_AutomatedTesting.Utilities.Keyword.Input(IWebDriver webDriver, String strObjectName, String oObjectXpath, String strData) in d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\Utilities\Keyword.cs:line 307
+Step 4: Waited for 2000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 4000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 6000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 8000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 10000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 12000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 14000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 16000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 18000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 20000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 22000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 24000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 26000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 28000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 30000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 32000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 34000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 36000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 38000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 40000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 42000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 44000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 46000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 48000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 50000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 52000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 54000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 56000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 58000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+Waited for 60000 milliseconds.By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox']
+NPOI.Util.RuntimeException: Can't find By.XPath: .//*[@id='ContentPlaceHolder1_PasswordTextBox'] after 60000 milliseconds.
+   at Selenium_Civica_AutomatedTesting.Utilities.Common.findElement(IWebDriver webDriver, By by, Int32 iTimeOut) in d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\Utilities\Common.cs:line 301
+   at Selenium_Civica_AutomatedTesting.Utilities.Keyword.Input(IWebDriver webDriver, String strObjectName, String oObjectXpath, String strData) in d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\Utilities\Keyword.cs:line 307
+Step 5: Waitting Time: 5
+Object [login.buttonLogin] does not existed in or.properties file, please check again
+The Testcase TC001 FAIL
+]]></text>
+                          </contents>
+                        </body>
+                      </stream>
+                    </streams>
+                    <attachments />
+                  </testLog>
+                </testStepRun>
+              </children>
+              <result assertCount="0" duration="208.6980346">
+                <outcome status="passed" />
+              </result>
+              <testLog>
+                <streams />
+                <attachments />
+              </testLog>
+            </testStepRun>
+          </children>
+          <result assertCount="0" duration="208.7328356">
+            <outcome status="passed" />
+          </result>
+          <testLog>
+            <streams />
+            <attachments />
+          </testLog>
+        </testStepRun>
+      </children>
+      <result assertCount="0" duration="212.837931">
+        <outcome status="passed" />
+      </result>
+      <testLog>
+        <streams />
+        <attachments />
+      </testLog>
+    </testStepRun>
+    <statistics assertCount="0" duration="212.83988459999998" runCount="1" passedCount="1" failedCount="0" inconclusiveCount="0" skippedCount="0" testCount="1" stepCount="4">
+      <outcomeSummaries>
+        <outcomeSummary count="1">
+          <outcome status="passed" />
+        </outcomeSummary>
+      </outcomeSummaries>
+    </statistics>
+  </testPackageRun>
+  <logEntries>
+    <logEntry severity="info" message="Host started at 3/17/2015 3:29:24 PM." />
+    <logEntry severity="info" message="Running under CLR v4.0.30319 runtime." />
+    <logEntry severity="debug" message="Listening for connections on IPC port: 'IsolatedProcessHost.ce141feaf85639e6'" />
+    <logEntry severity="info" message="Host stopped at 3/17/2015 3:32:55 PM." />
+    <logEntry severity="info" message="Host process exited with code: 0" />
+    <logEntry severity="info" message="Host started at 3/17/2015 3:32:55 PM." />
+    <logEntry severity="info" message="Running under CLR v4.0.30319 runtime." />
+    <logEntry severity="debug" message="Listening for connections on IPC port: 'IsolatedProcessHost.a289e8f1f2185a60'" />
+    <logEntry severity="info" message="Host stopped at 3/17/2015 3:32:57 PM." />
+    <logEntry severity="info" message="Host process exited with code: 0" />
+  </logEntries>
+</report>

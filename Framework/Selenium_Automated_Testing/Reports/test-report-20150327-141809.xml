@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gallio.org/">
+  <testPackage shadowCopy="false" debug="false">
+    <files>
+      <file>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Automated_Testing\Selenium_Automated_Testing\bin\Debug\Selenium_Automated_Testing.dll</file>
+    </files>
+    <hintDirectories />
+    <excludedFrameworkIds />
+    <properties />
+  </testPackage>
+  <testModel>
+    <test id="c2722843734a7a54" name="Root" fullName="" isTestCase="false">
+      <codeReference />
+      <codeLocation />
+      <metadata>
+        <entry key="TestKind">
+          <value>Root</value>
+        </entry>
+      </metadata>
+      <children>
+        <test id="9f68520332dbf5a4" name="Selenium_Automated_Testing" fullName="Selenium_Automated_Testing" isTestCase="false">
+          <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+          <codeLocation path="D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Automated_Testing\Selenium_Automated_Testing\bin\Debug\Selenium_Automated_Testing.DLL" />
+          <metadata>
+            <entry key="TestKind">
+              <value>MbUnit v3 Assembly</value>
+            </entry>
+            <entry key="File">
+              <value>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Automated_Testing\Selenium_Automated_Testing\bin\Debug\Selenium_Automated_Testing.DLL</value>
+            </entry>
+            <entry key="CodeBase">
+              <value>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Automated_Testing\Selenium_Automated_Testing\bin\Debug\Selenium_Automated_Testing.DLL</value>
+            </entry>
+            <entry key="Copyright">
+              <value>Copyright ©  2013</value>
+            </entry>
+            <entry key="FileVersion">
+              <value>1.0.0.0</value>
+            </entry>
+            <entry key="Product">
+              <value>NashTech_FW</value>
+            </entry>
+            <entry key="Title">
+              <value>Automated_Testing_HarveyNash</value>
+            </entry>
+            <entry key="Version">
+              <value>1.0.0.0</value>
+            </entry>
+            <entry key="Framework">
+              <value>MbUnit v3.4 build 11</value>
+            </entry>
+          </metadata>
+          <children>
+            <test id="911ad9a61adcad21" name="SeleniumGridTestChrome" fullName="Selenium_Automated_Testing/SeleniumGridTestChrome" isTestCase="false">
+              <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestChrome" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestChrome.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="d614aa394cc87c38" name="TestCase" fullName="Selenium_Automated_Testing/SeleniumGridTestChrome/TestCase" isTestCase="true">
+                  <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestChrome" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestChrome.cs" line="41" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="d714dd85e9a84eaf" name="SeleniumGridTestIE" fullName="Selenium_Automated_Testing/SeleniumGridTestIE" isTestCase="false">
+              <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestIE" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestIE.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="f1598e4b78f4d60c" name="TestCase" fullName="Selenium_Automated_Testing/SeleniumGridTestIE/TestCase" isTestCase="true">
+                  <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestIE" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestIE.cs" line="38" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="df48b5ed0e4e272b" name="TestLocal" fullName="Selenium_Automated_Testing/TestLocal" isTestCase="false">
+              <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.TestLocal" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestLocal.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="a32ab360ba11321d" name="RunTestSuite" fullName="Selenium_Automated_Testing/TestLocal/RunTestSuite" isTestCase="true">
+                  <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.TestLocal" member="RunTestSuite" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestLocal.cs" line="40" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="ec4e11a0eb075ca0" name="SeleniumGridTestFF" fullName="Selenium_Automated_Testing/SeleniumGridTestFF" isTestCase="false">
+              <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestFF" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestFF.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="35597870edd2a42" name="TestCase" fullName="Selenium_Automated_Testing/SeleniumGridTestFF/TestCase" isTestCase="true">
+                  <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestFF" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestFF.cs" line="40" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="f31c1f4ee1682f0b" name="BrowserStackParrallelIE" fullName="Selenium_Automated_Testing/BrowserStackParrallelIE" isTestCase="false">
+              <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelIE" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelE.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="a87c447e3ea8f0c5" name="TestCase" fullName="Selenium_Automated_Testing/BrowserStackParrallelIE/TestCase" isTestCase="true">
+                  <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelIE" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelE.cs" line="42" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="1d18dff8accf3284" name="BrowserStackParrallelFireFox" fullName="Selenium_Automated_Testing/BrowserStackParrallelFireFox" isTestCase="false">
+              <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelFireFox" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelFireFox.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="d665a016d11f9df0" name="TestCase" fullName="Selenium_Automated_Testing/BrowserStackParrallelFireFox/TestCase" isTestCase="true">
+                  <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelFireFox" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelFireFox.cs" line="42" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+            <test id="d00fe051a2537d7b" name="BrowserStackParrallelChrome" fullName="Selenium_Automated_Testing/BrowserStackParrallelChrome" isTestCase="false">
+              <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelChrome" />
+              <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelChrome.cs" />
+              <metadata>
+                <entry key="TestKind">
+                  <value>Fixture</value>
+                </entry>
+              </metadata>
+              <children>
+                <test id="15e650dc182afdda" name="TestCase" fullName="Selenium_Automated_Testing/BrowserStackParrallelChrome/TestCase" isTestCase="true">
+                  <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.BrowserStackParrallelChrome" member="TestCase" />
+                  <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestBrowserStackParallelChrome.cs" line="44" />
+                  <metadata>
+                    <entry key="TestKind">
+                      <value>Test</value>
+                    </entry>
+                  </metadata>
+                  <children />
+                  <parameters />
+                </test>
+              </children>
+              <parameters />
+            </test>
+          </children>
+          <parameters />
+        </test>
+      </children>
+      <parameters />
+    </test>
+    <annotations />
+  </testModel>
+  <testPackageRun startTime="2015-03-27T14:18:09.3885409+07:00" endTime="2015-03-27T14:19:32.8775409+07:00">
+    <testStepRun startTime="2015-03-27T14:18:11.1405409+07:00" endTime="2015-03-27T14:19:32.8775409+07:00">
+      <testStep id="4481bed897f3c5ed" name="Root" fullName="" testId="c2722843734a7a54" isPrimary="true" isTestCase="false" isDynamic="false">
+        <codeReference />
+        <codeLocation />
+        <metadata>
+          <entry key="TestKind">
+            <value>Root</value>
+          </entry>
+        </metadata>
+      </testStep>
+      <children>
+        <testStepRun startTime="2015-03-27T14:18:11.1955409+07:00" endTime="2015-03-27T14:19:32.7935409+07:00">
+          <testStep id="c1c42b71ea7e4f49" name="Selenium_Automated_Testing" fullName="Selenium_Automated_Testing" testId="9f68520332dbf5a4" isPrimary="true" isTestCase="false" isDynamic="false">
+            <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+            <codeLocation path="D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Automated_Testing\Selenium_Automated_Testing\bin\Debug\Selenium_Automated_Testing.DLL" />
+            <metadata>
+              <entry key="TestKind">
+                <value>MbUnit v3 Assembly</value>
+              </entry>
+              <entry key="File">
+                <value>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Automated_Testing\Selenium_Automated_Testing\bin\Debug\Selenium_Automated_Testing.DLL</value>
+              </entry>
+              <entry key="CodeBase">
+                <value>D:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Automated_Testing\Selenium_Automated_Testing\bin\Debug\Selenium_Automated_Testing.DLL</value>
+              </entry>
+              <entry key="Copyright">
+                <value>Copyright ©  2013</value>
+              </entry>
+              <entry key="FileVersion">
+                <value>1.0.0.0</value>
+              </entry>
+              <entry key="Product">
+                <value>NashTech_FW</value>
+              </entry>
+              <entry key="Title">
+                <value>Automated_Testing_HarveyNash</value>
+              </entry>
+              <entry key="Version">
+                <value>1.0.0.0</value>
+              </entry>
+              <entry key="Framework">
+                <value>MbUnit v3.4 build 11</value>
+              </entry>
+            </metadata>
+          </testStep>
+          <children>
+            <testStepRun startTime="2015-03-27T14:18:11.2345409+07:00" endTime="2015-03-27T14:19:32.7895409+07:00">
+              <testStep id="46df0d83013a3c9f" name="SeleniumGridTestIE" fullName="Selenium_Automated_Testing/SeleniumGridTestIE" testId="d714dd85e9a84eaf" isPrimary="true" isTestCase="false" isDynamic="false">
+                <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestIE" />
+                <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestIE.cs" />
+                <metadata>
+                  <entry key="TestKind">
+                    <value>Fixture</value>
+                  </entry>
+                </metadata>
+              </testStep>
+              <children>
+                <testStepRun startTime="2015-03-27T14:18:11.5005409+07:00" endTime="2015-03-27T14:19:32.7585409+07:00">
+                  <testStep id="74f857044f8f2ac2" name="TestCase" fullName="Selenium_Automated_Testing/SeleniumGridTestIE/TestCase" testId="f1598e4b78f4d60c" isPrimary="true" isTestCase="true" isDynamic="false">
+                    <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.SeleniumGridTestIE" member="TestCase" />
+                    <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\SeleniumGridTestIE.cs" line="38" />
+                    <metadata>
+                      <entry key="TestKind">
+                        <value>Test</value>
+                      </entry>
+                    </metadata>
+                  </testStep>
+                  <children />
+                  <result assertCount="0" duration="81.25925269999999">
+                    <outcome status="passed" />
+                  </result>
+                  <testLog>
+                    <streams>
+                      <stream name="ConsoleOutput">
+                        <body>
+                          <contents>
+                            <text><![CDATA[
+===========================================================================================
+RUNNING TEST SUITE: TS001 Login by "su" user
+===========================================================================================
+
+-------------------------------------------------------------------------------------------
+Running test case: TC001 Log in as valid account successfully
+Step 1: Navigate URL successfully
+Step 2: The element //*[@id='ContentPlaceHolder1_UsernameTextBox'] is presented at 2000 milliseconds.
+Step 3: Enter value to Login.TextUserName: su
+Step 4: Enter value to Login.TextPassword: password
+Step 6: Click on Login.ButtonLogin
+The Testcase TC001 PASS
+
+===========================================================================================
+RUNNING TEST SUITE: TS002 TC CSS 5: Case Outcome =null
+===========================================================================================
+
+-------------------------------------------------------------------------------------------
+Running test case: TC002 Add new case
+Step 1: Navigate URL successfully
+Step 2: Click on WorkList.AddNewCase
+Step 3: Select item of combo box successful
+Step 4: Click on Case.Save
+Step 5: Click on CaseSaveSuccess.Continue
+Step 6: Click on Case.State
+Step 7: Click on ChangeCaseState.ComboBox
+Step 8: Data are not matched! 
+ Expected result: Rajat
+ Actual result: Open
+The Testcase TC002 FAIL
+
+===========================================================================================
+RUNNING TEST SUITE: TS003 TC CSS 5: Case Outcome =Upheld
+===========================================================================================
+
+-------------------------------------------------------------------------------------------
+Running test case: TC002 Add new case
+Step 1: Navigate URL successfully
+Step 2: Click on WorkList.AddNewCase
+Step 3: Select item of combo box successful
+Step 4: Click on Case.Save
+Step 5: Click on CaseSaveSuccess.Continue
+Step 6: Click on Case.State
+Step 7: Click on ChangeCaseState.ComboBox
+Step 8: Data are not matched! 
+ Expected result: Rajat
+ Actual result: Open
+Step 9: Data are not matched! 
+ Expected result: Rajat
+ Actual result: Resolved
+The Testcase TC002 FAIL
+]]></text>
+                          </contents>
+                        </body>
+                      </stream>
+                    </streams>
+                    <attachments />
+                  </testLog>
+                </testStepRun>
+              </children>
+              <result assertCount="0" duration="81.5304587">
+                <outcome status="passed" />
+              </result>
+              <testLog>
+                <streams />
+                <attachments />
+              </testLog>
+            </testStepRun>
+            <testStepRun startTime="2015-03-27T14:18:11.2365409+07:00" endTime="2015-03-27T14:19:22.6575409+07:00">
+              <testStep id="56399eeb6681a805" name="TestLocal" fullName="Selenium_Automated_Testing/TestLocal" testId="df48b5ed0e4e272b" isPrimary="true" isTestCase="false" isDynamic="false">
+                <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.TestLocal" />
+                <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestLocal.cs" />
+                <metadata>
+                  <entry key="TestKind">
+                    <value>Fixture</value>
+                  </entry>
+                </metadata>
+              </testStep>
+              <children>
+                <testStepRun startTime="2015-03-27T14:18:11.7565409+07:00" endTime="2015-03-27T14:19:22.6465409+07:00">
+                  <testStep id="b67a395a87789f66" name="RunTestSuite" fullName="Selenium_Automated_Testing/TestLocal/RunTestSuite" testId="a32ab360ba11321d" isPrimary="true" isTestCase="true" isDynamic="false">
+                    <codeReference assembly="Selenium_Automated_Testing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" namespace="Demo" type="Demo.TestLocal" member="RunTestSuite" />
+                    <codeLocation path="d:\AllinOne\Project\WorkSmart\AutomationTestFramework\Selenium_Civica_AutomatedTesting\Selenium_Civica_AutomatedTesting\TestLocal.cs" line="40" />
+                    <metadata>
+                      <entry key="TestKind">
+                        <value>Test</value>
+                      </entry>
+                    </metadata>
+                  </testStep>
+                  <children />
+                  <result assertCount="0" duration="70.891734">
+                    <outcome status="passed" />
+                  </result>
+                  <testLog>
+                    <streams>
+                      <stream name="ConsoleOutput">
+                        <body>
+                          <contents>
+                            <text><![CDATA[
+===========================================================================================
+RUNNING TEST SUITE: TS001 Login by "su" user
+===========================================================================================
+
+-------------------------------------------------------------------------------------------
+Running test case: TC001 Log in as valid account successfully
+Step 1: Navigate URL successfully
+Step 2: The element //*[@id='ContentPlaceHolder1_UsernameTextBox'] is presented at 2000 milliseconds.
+Step 3: Enter value to Login.TextUserName: su
+Step 4: Enter value to Login.TextPassword: password
+Step 6: Click on Login.ButtonLogin
+The Testcase TC001 PASS
+
+===========================================================================================
+RUNNING TEST SUITE: TS002 TC CSS 5: Case Outcome =null
+===========================================================================================
+
+-------------------------------------------------------------------------------------------
+Running test case: TC002 Add new case
+Step 1: Navigate URL successfully
+Step 2: Click on WorkList.AddNewCase
+Step 3: Select item of combo box successful
+Step 4: Click on Case.Save
+Step 5: Click on CaseSaveSuccess.Continue
+Step 6: Click on Case.State
+Step 7: Click on ChangeCaseState.ComboBox
+Step 8: Data are not matched! 
+ Expected result: Rajat
+ Actual result: Open
+The Testcase TC002 FAIL
+
+===========================================================================================
+RUNNING TEST SUITE: TS003 TC CSS 5: Case Outcome =Upheld
+===========================================================================================
+
+-------------------------------------------------------------------------------------------
+Running test case: TC002 Add new case
+Step 1: Navigate URL successfully
+Step 2: Click on WorkList.AddNewCase
+Step 3: Select item of combo box successful
+Step 4: Click on Case.Save
+Step 5: Click on CaseSaveSuccess.Continue
+Step 6: Click on Case.State
+Step 7: Click on ChangeCaseState.ComboBox
+Step 8: Data are not matched! 
+ Expected result: Rajat
+ Actual result: Open
+Step 9: Data are not matched! 
+ Expected result: Rajat
+ Actual result: Resolved
+The Testcase TC002 FAIL
+]]></text>
+                          </contents>
+                        </body>
+                      </stream>
+                    </streams>
+                    <attachments />
+                  </testLog>
+                </testStepRun>
+              </children>
+              <result assertCount="0" duration="71.4239183">
+                <outcome status="passed" />
+              </result>
+              <testLog>
+                <streams />
+                <attachments />
+              </testLog>
+            </testStepRun>
+          </children>
+          <result assertCount="0" duration="81.5752471">
+            <outcome status="passed" />
+          </result>
+          <testLog>
+            <streams />
+            <attachments />
+          </testLog>
+        </testStepRun>
+      </children>
+      <result assertCount="0" duration="83.492215899999991">
+        <outcome status="passed" />
+      </result>
+      <testLog>
+        <streams />
+        <attachments />
+      </testLog>
+    </testStepRun>
+    <statistics assertCount="0" duration="83.4923439" runCount="2" passedCount="2" failedCount="0" inconclusiveCount="0" skippedCount="0" testCount="2" stepCount="6">
+      <outcomeSummaries>
+        <outcomeSummary count="2">
+          <outcome status="passed" />
+        </outcomeSummary>
+      </outcomeSummaries>
+    </statistics>
+  </testPackageRun>
+  <logEntries>
+    <logEntry severity="info" message="Host started at 3/27/2015 2:18:09 PM." />
+    <logEntry severity="info" message="Running under CLR v4.0.30319 runtime." />
+    <logEntry severity="debug" message="Listening for connections on IPC port: 'IsolatedProcessHost.3dbb83f24eca816e'" />
+    <logEntry severity="info" message="Host stopped at 3/27/2015 2:19:32 PM." />
+    <logEntry severity="info" message="Host process exited with code: 0" />
+  </logEntries>
+</report>

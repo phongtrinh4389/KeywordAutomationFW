@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium_Automated_Testing", "Selenium_Automated_Testing\Selenium_Automated_Testing.csproj", "{EA7D6F3C-BBFB-4558-A31A-20B3F6BDB593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worksmart_Automated_Testing", "..\..\WS.Test\Worksmart_Automated_Testing\Worksmart_Automated_Testing.csproj", "{CC3B4ADE-61F3-4E59-A946-DA88772E70D4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tf-work-02:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Selenium_Automated_Testing\\Selenium_Automated_Testing.csproj
+		SccProjectName1 = Selenium_Automated_Testing
+		SccLocalPath1 = Selenium_Automated_Testing
+		SccProjectUniqueName2 = ..\\..\\WS.Test\\Worksmart_Automated_Testing\\Worksmart_Automated_Testing.csproj
+		SccProjectName2 = ../../WS.Test/Worksmart_Automated_Testing
+		SccLocalPath2 = ..\\..\\WS.Test\\Worksmart_Automated_Testing
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA7D6F3C-BBFB-4558-A31A-20B3F6BDB593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7D6F3C-BBFB-4558-A31A-20B3F6BDB593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7D6F3C-BBFB-4558-A31A-20B3F6BDB593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7D6F3C-BBFB-4558-A31A-20B3F6BDB593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3B4ADE-61F3-4E59-A946-DA88772E70D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3B4ADE-61F3-4E59-A946-DA88772E70D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3B4ADE-61F3-4E59-A946-DA88772E70D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3B4ADE-61F3-4E59-A946-DA88772E70D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
